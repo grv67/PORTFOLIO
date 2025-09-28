@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bungee+Spice&family=Fjalla+One&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+HU:wght@100..400&family=Unlock&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#welcome {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: purple;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+#disp_pic {
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  flex-shrink: 0;
+}
+
+#disp_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 80px; 
+  height: 500px;
+}
+
+#about-me {
+  font-size: 18px;
+ font-family: "Unlock", serif;
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+
+</style>
+</head>
+<body>
+
+<h1 id="welcome">WELCOME TO MY PORTFOLIO</h1>
+
+<div class="container"> 
+  <div id="disp_pic">
+    <img id="disp_img" src="disp.jpeg">
+  </div> 
+
+  <div id="about">
+    <div class="navbar">
+      <a href="academics.html">ACADEMICS</a>
+      <a href="hobbies.html">HOBBIES</a>
+      <a href="skills.html">SKILLS</a>
+      <a href="#">CONTACT</a>
+    </div> 
+
+    <div id="about-me">
+      <p>Myself KUMAR GAURAV, a CSE undergrad from IIIT MANIPUR, currently in second year.<br>
+         I am aspiring software developer with good logical thinking ability and programming knowledge.
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
